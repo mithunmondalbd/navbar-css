@@ -1,0 +1,451 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+/* dropdown -menu start with here  */
+.menu-bar{
+    background-image: url(image/ian-dooley-DuBNA1QMpPA-unsplash.jpg);
+    background-size: cover;
+    background-color: #cccccc;
+    background-position: center;
+    font-family: sans-serif;
+    width: 100%;
+    height: 550px;
+}
+.menu-bar ul{
+    background-color: #000000;
+    text-align: center;
+    padding: 15px;
+}
+.menu-bar ul li{
+    list-style: none;
+    display: inline;
+    margin: 15px;
+    padding: 12px;
+    position: relative;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #f7f7f7ee;
+    
+}
+ .menu-bar ul li:hover{
+    background-color: rgb(0, 136, 0);
+    border-radius: 3px;
+}
+
+
+.menu-bar .fa-solid {
+    margin: 8px;
+    color: rgb(252, 252, 252);
+}
+.active, .menu-bar a:hover{
+    color: rgb(145, 2, 2);
+}
+
+.dropdown-menu{
+  display: inline;
+  position: relative;
+}
+.sub-menu-1 {
+    background-color: #af9c9c;
+    position: absolute;
+    left: 0px;
+    padding-left: 15px;
+    margin-left: 15px;
+    padding-bottom: 10px;  
+    display: none;
+    border: 1px sold black;
+}
+.sub-menu-1 a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: #000000;
+}
+
+.dropdown-menu:hover .sub-menu-1 {
+    display: block;
+    width: 120px;
+    color: #fff;
+}
+
+
+ /* dropdown -menu end with here  */ 
+/* blog-menu start here */
+.blog-menu{
+    text-align: center;
+    margin-top: 10rem;
+    color: rgb(12, 9, 9);
+}
+.headline{
+    font-size: 40px;
+}
+.horizontal-line{
+    width: 40%;
+    margin: auto;
+    padding: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.blog-para{
+    box-sizing: border-box;
+    width: 50%;
+    margin: auto;
+    color: #181010;
+}
+.blog-btn{
+    border: none;
+    padding: 10px 15px;
+    margin: 10px;
+    color: rgb(39, 38, 38);
+    background-color: rgb(216, 253, 6);
+    font-size: 14px;
+    border-radius: 5px;
+}
+.blog-btn:hover{
+    cursor: pointer;
+    background-color: rgb(250, 250, 248);
+}
+/* blog-menu start here  */
+
+/*  Images for products items name start here */
+.second-line{
+    padding: 10px;
+    font-size: 14px;
+}
+
+.conatainer{
+    background-color: blue;
+    width: 100%;
+    height: 1000px;
+    
+}
+
+.row-column{
+    text-align: center;
+    margin-left: 7rem;
+}
+.menu-part{
+    float: left;
+    width: 20%;
+    margin: 15px
+    
+}
+.menu-part:hover{
+    cursor: pointer;
+    opacity: 0.3;
+    color: rgb(104, 0, 17);
+}
+.image-size{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 30px 0;
+}
+.card-dec{
+    padding: 15px ;
+    text-align: justify;
+}
+.btn{
+    clear: both;
+    display: block;
+    margin: auto;
+    padding: 10px 18px;
+    background-color: rgb(121, 192, 40);
+    font-size: 16px;
+    border-radius: 5px;
+    color: #fff;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #111;
+}
+
+/*  Images for products items name end here */
+
+/* brand new -app to blow your mind start here */
+.brand-new{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 50px;
+}
+.title{
+    text-transform: capitalize;
+    color: grey;
+}
+.title1{
+    font-size: 50px;
+    padding: 5px 0 20px;
+}
+.description{
+    text-align: justify;
+    padding: 10px 0;
+}
+.btns{
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: rgb(121, 192, 40);
+    margin: 15px;
+    padding: 12px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+}
+.btns:hover{
+    cursor: pointer;
+    background-color: rgb(81, 88, 81);
+}
+
+/* brand new -app to blow your mind closeing here */
+.side-image{
+    width: 50%;
+   float: left;
+   display: block;
+   text-align: center;
+   margin-top: 50px;
+}
+.side-part{
+    width: 500px;
+    height: 300px;
+}
+.side-part:hover{
+    cursor: pointer;
+    opacity: 0.3;
+    color: #111;
+}
+/* section parts end here */
+
+/* find iteams start here */
+.find-iteams{
+    text-align: center;
+    background-color: rgba(223, 201, 201, 0.747);
+    padding: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    clear: both;
+}
+.row{
+    margin-left: 15rem;
+}
+.column{
+    float: left;
+    width: 200px;
+    text-align: center;
+    box-shadow: 5px 10px 8px 10px #888888;
+    box-sizing: border-box;
+    margin: 15px 10px;
+    border: 1px solid green;
+    
+}
+.column:hover{
+    cursor: pointer;
+    opacity: 0.3;
+    transition: 0.7;
+}
+.row:after{
+    content: "";
+    display: block;
+    clear: both;
+
+    margin: auto;
+}
+
+.image-list{
+    width: 199px;
+    height: 150px;
+}
+.container-card{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: center;
+    overflow: hidden;
+}
+.card-title{
+    padding: 10px;
+    background-color: rgb(250, 250, 26);
+}
+.price{
+    padding: 10px;
+    background-color: navy;
+    color: #fff;
+    position: relative;
+    float: left;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+
+}
+.listed{
+    position: absolute;
+    /* float: right; */
+    margin-left: 8rem;
+    color: #fff;
+    /* display: block; */
+    text-align: left;
+    padding-top: 10px;
+}
+.description-list{
+    padding: 15px;
+    text-align: justify;
+    clear: both;
+}
+
+/* table menu start here */
+.table-row{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-left: 8.8rem;
+}
+table{
+    width: 25%;
+    margin: 50px 10px;
+    float: left;
+    text-align: center;
+}
+
+table, th, td{
+    border-top: 1px solid rgb(16, 179, 43);
+    border-right: 1px solid rgb(0, 114, 19);
+    border-bottom: 1px solid rgb(0, 114, 19) ;
+    border-left: 1px solid rgb(206, 219, 206);
+    border-collapse: collapse;
+}
+.heading-table{
+    padding: 20px;
+    color: #fff;
+    background-color: rgb(8, 8, 8);
+    text-align: center;
+}
+.heading-color{
+    padding: 20px;
+    color: #fff;
+    background-color: rgb(145, 139, 139);
+    text-align: center;
+}
+.first-para{
+    padding: 15px;
+    border-bottom: 2px solid green;
+    text-align: center;
+}
+.second-para{
+    padding: 15px;
+    border-bottom: 1px solid green;
+    text-align: center;
+}
+.thried-para{
+    padding: 15px;
+    border-bottom: 1px solid rgb(206, 219, 206);
+    text-align: center;
+}
+.add-para{
+    padding: 15px;
+    border-bottom: 1px solid rgb(9, 180, 9);
+    text-align: center;
+}
+.fourth-para{
+    padding: 15px;
+    border-bottom: 2px solid rgb(9, 180, 9);
+    text-align: center;
+}
+.btn-sign{
+    border: none;
+    margin: 15px;
+    font-size: 18px;
+    background-color: rgb(16, 121, 112);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 2px #888888;
+}
+.btn-sign:hover{
+    cursor: pointer;
+    background-color: rgb(250, 246, 7);
+}
+/* footer menu is start here */
+footer{
+    clear: both;
+    width: 100%;
+    min-height: 40vh;
+    background-color: rgb(0, 0, 26);
+    color: white;
+}
+.foot-menu{
+    width: 30%;
+    height: 40vh;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px;
+    float: left;
+
+}
+.first-part{
+    padding: 10px;
+}
+.icon{
+    padding: 10px;
+    font-size: 25px;
+    color: #888888;
+    
+}
+
+.icon:hover{
+    background-color: rgb(225, 235, 230);
+    border-radius: 50%;
+    color: rgb(211, 12, 111);
+}
+.footer-search{
+    width: 30%;
+    height: 40vh;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px;
+    float: left;
+}
+
+.middle-footer{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+ input{
+    padding: 4px 5px;
+    width: 230px;
+}
+.footer-btn{
+    border: none;
+    padding: 5px 18px;
+    background-color: yellow;
+    font-size: 14px;
+    border-radius: 5px;
+    color: rgb(10, 10, 10);
+    border: 1px solid black;
+}
+.footer-btn:hover{
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.footer-map{
+    width: 30%;
+    float: left;
+    margin: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.map-size{
+    width: 430px;
+    height: 200px;
+    border: none;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}   
+/* footer menu is end here */
